@@ -1,4 +1,4 @@
-// Load Gulp...of course
+
 const { src, dest, task, watch, series, parallel } = require('gulp');
 
 // CSS related plugins
