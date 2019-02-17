@@ -13,8 +13,6 @@ var rename       = require( 'gulp-rename' );
 var sourcemaps   = require( 'gulp-sourcemaps' );
 var notify       = require( 'gulp-notify' );
 var plumber      = require( 'gulp-plumber' );
-var options      = require( 'gulp-options' );
-var gulpif       = require( 'gulp-if' );
 
 // Browers related plugins
 var browserSync  = require( 'browser-sync' ).create();
@@ -25,8 +23,6 @@ var styleDest    = 'dist/css/';
 var mapURL       = '/';
 
 var jsSrc        = 'src/js/**/*.js';
-// var jsFront      = 'main.js';
-// var jsFiles      = [ jsFront ];
 var jsDest       = 'dist/js/';
 
 var imgSrc       = 'src/media/**/*';
@@ -114,8 +110,6 @@ function watch_files() {
 	watch(imgWatch, series(images, reload));
 	watch(fontsWatch, series(fonts, reload));
 	watch(htmlWatch, series(html, reload));
-	/* src(jsDest + 'main.min.js')
-		.pipe( notify({ message: 'Gulp is Watching, Happy Coding!' }) ); */
 }
 
 task("css", css);
