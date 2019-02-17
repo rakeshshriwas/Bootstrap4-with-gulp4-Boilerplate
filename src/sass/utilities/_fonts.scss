@@ -1,0 +1,44 @@
+// ==========================================================================
+// $FONT-FACE
+// ==========================================================================
+// stylelint-disable value-keyword-case
+// $font-folder-cabin:    'https://cdn.wittyfeed.com/assets_pwa_new/fonts/cabin';
+// $font-folder-openSans: 'https://cdn.wittyfeed.com/assets_pwa_new/fonts/Open_Sans';
+
+
+// @include font-face('font-Regular', 'Cabin-Regular', $font-folder-cabin, normal, 400);
+// @include font-face('font-Medium', 'Cabin-Medium', $font-folder-cabin, normal, 500);
+// @include font-face('font-SemiBold', 'Cabin-SemiBold', $font-folder-cabin, normal, 600);
+// @include font-face('font-Bold', 'Cabin-Bold', $font-folder-cabin, normal, 700);
+
+// @include single-font-face('font-Desc-Regular', 'OpenSans-Regular', $font-folder-openSans, normal, 400);
+  
+// $base-font-size
+
+$base-font-size:              18;
+
+// $base-line-height
+
+$base-line-height:            24;
+
+
+// $font-family-sans-serif:      $font-family-monospace !default;
+// $font-family-monospace:       $font-family-monospace !default;
+$font-family-base:            $font-family-cabin !default;
+
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-semi-bold:       500 !default;
+$font-weight-bold:            700 !default;
+$font-weight-base:            $font-weight-normal !default;
+
+$font-size-base:              1rem !default; // 16px
+$line-height-base:            1.5 !default;//24px
+  
+$h1-font-size:                $font-size-base * 2.5 !default;//40px
+$h2-font-size:                $font-size-base * 2 !default;//32px
+$h3-font-size:                $font-size-base * 1.75 !default;//28px
+$h4-font-size:                $font-size-base * 1.5 !default;//24px
+$h5-font-size:                $font-size-base * 1.25 !default;//20px
+$h6-font-size:                $font-size-base !default;//
+

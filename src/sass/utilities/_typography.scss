@@ -1,0 +1,17 @@
+// $font-family-sans-fallback
+
+$font-family-sans-fallback:   'Arial', sans-serif;
+
+// $font-family-sans
+// @requires - `$font-family-sans-fallback`
+
+$font-family-cabin:           'Cabin', sans-serif;
+$font-family-test:           'Test', sans-serif;
+
+// $font-family-display
+
+$font-family-display:         $font-family-test;
+
+// $font-family-default
+
+$font-family-default:         $font-family-test;

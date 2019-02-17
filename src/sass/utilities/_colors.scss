@@ -1,0 +1,50 @@
+/* Color Based on current requirement */
+
+// All colors
+
+$black:              #000000 !default;
+$white:              #ffffff !default;
+$light-gray:         #e5ebef !default;
+$white-smoke:        #f2f2f2 !default;
+$safety-orange:      #F96D00 !default;
+$oxford-blue:        #263135 !default;
+$hint-of-red:        #f1efed !default;
+$nobel:              #999999 !default;
+$tenne:              #c65700 !default;
+$very-light-grey:    #cccccc !default;
+$light-grey:         #d4d4d4 !default;
+$gondola:            #3c312e !default;
+$gray:               #808080 !default;
+$wfblue:             #046fc2 !default;
+$blueviolet:		 #8a2be2;
+//social brand colors
+$facebook:           #507DBE;
+$twitter:            #59ADEB;
+$whatsApp:           #26D367;
+$facebook-messanger: #2F8ADE;
+$copy-url:           #DB8443;
+$default-color:      #EBEBEB;
+
+//body background-color
+
+$body-color-background:    $white;
+
+// Main color palette
+$color-default:             $white;
+$color-primary:             $wfblue;
+$color-secondary:           $gondola;
+$color-accent:              $light-grey;
+$color-shadow:              rgba($black, .125);
+$color-note:                #666;
+
+
+// Links
+
+$color-link:                $color-primary;
+$color-link-hover:          $gondola;
+$color-link-visited:        $gray;
+
+
+// Default Text color
+
+$text-color-default: $black !default;

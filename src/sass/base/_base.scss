@@ -1,0 +1,101 @@
+// Dist path for assets (fonts, images...)
+// $asset-base-path: '../dist' !default;
+/// Src path for assets (fonts, images...)
+$asset-base-path: 'assets/fonts' !default;
+html {
+    background-color: $body-color-background;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+* {
+    &:before,
+    &:after {
+        box-sizing: inherit;
+    }
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    color: $text-color-default;
+    font-family: $font-family-default;
+    min-height: 100%;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+}
+
+a {
+    background: transparent;
+    color: $text-color-default;
+    text-decoration: none;
+    transition: color .2s;
+    outline: 0;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+/* h1, h2, h3, h4, h5, h6{
+
+} */
+
+h1 {
+    font-size: $h1-font-size;
+}
+
+h2 {
+    font-size: $h2-font-size;
+}
+
+h3 {
+    font-size: $h3-font-size;
+}
+
+h4 {
+    font-size: $h4-font-size;
+}
+
+h5 {
+    font-size: $h5-font-size;
+}
+
+h6 {
+    font-size: $h6-font-size;
+}
+hr{
+    clear: both;
+    width: 85%;
+    box-sizing: border-box;
+    margin: 20px auto;
+    border: none;
+    height: 1px;
+    color: $color-primary;
+    background-color: $color-primary;
+}
+
+@media only screen and (max-width:768px){
+::-webkit-scrollbar {
+        display: none;
+    }
+}
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ffffff;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: $color-primary;
+  outline: 1px solid slategrey;
+}
+.vtpl_wrapper{
+    padding-top: 45px;
+    margin-bottom: 55px
+}

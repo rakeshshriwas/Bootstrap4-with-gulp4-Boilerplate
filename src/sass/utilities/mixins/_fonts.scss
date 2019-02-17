@@ -1,0 +1,25 @@
+@mixin font-face($family, $filename, $folder, $style, $weight) {
+    @font-face {
+        font-family: $family;
+        // src: url('#{$folder}/#{$filename}.eot'); // IE9 Compat Modes
+        // src: url('#{$folder}/#{$filename}.eot?#iefix') format("embedded-opentype"); // IE6-IE8
+        src: url('#{$folder}/#{$filename}.woff') format("woff"); // Modern Browsers
+        src: url('#{$folder}/#{$filename}.ttf') format("truetype"); // Safari, Android, iOS
+        // src: url('#{$folder}/#{$filename}.svg#08bb4ba465a902745fc23c83a5d9fdc2') format("svg");
+        font-style: $style;
+        font-weight: $weight;
+    }
+}
+
+@mixin single-font-face($family, $filename, $folder, $style, $weight) {
+    @font-face {
+        font-family: $family;
+        // src: url('#{$folder}/#{$filename}.eot'); // IE9 Compat Modes
+        // src: url('#{$folder}/#{$filename}.eot?#iefix') format("embedded-opentype"); // IE6-IE8
+        // src: url('#{$folder}/#{$filename}.woff') format("woff"); // Modern Browsers
+        src: url('#{$folder}/#{$filename}.ttf') format("truetype"); // Safari, Android, iOS
+        // src: url('#{$folder}/#{$filename}.svg#08bb4ba465a902745fc23c83a5d9fdc2') format("svg");
+        font-style: $style;
+        font-weight: $weight;
+    }
+}
